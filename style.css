@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    background: hsla(203, 41%, 72%, 0.541);
+}
+
+.container {
+    height: 400px;
+    width: 600px;
+    background: hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.con1 {
+    height: 100%;
+    width: 50%;
+    background: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.Mortgage-top {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+
+
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+input {
+    height: 35px;
+    width: 100%;
+    border-radius: 5px;
+    border: solid 0.1px hsl(200, 24%, 40%);
+}
+
+.text-design {
+    height: 35px;
+    display: flex;
+    align-items: center;
+    border: solid 0.1px hsl(200, 24%, 40%);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.text-design p {
+    background: hsla(200, 26%, 54%, 0.308);
+    height: 40px;
+    color: hsl(200, 24%, 40%);
+    width: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    
+}
+
+.text-design p:nth-child(2) {
+    background: hsla(200, 26%, 54%, 0.332);
+    height: 40px;
+    color: hsl(200, 24%, 40%);
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    
+}
+
+.text-design p:nth-child(3) {
+    background: hsla(200, 26%, 54%, 0.332);
+    height: 40px;
+    color: hsl(200, 24%, 40%);
+    width: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    
+}
+
+
+.text-design input {
+    border: none;
+}
+.mort-term-input {
+    display: flex;
+    gap: 20px;
+}
+
+h2:nth-child(1){
+    color: hsl(200, 24%, 40%);
+    font-size: large;
+}
+
+.Repayment {
+    display: flex;
+    border: solid 0.1px;
+    height: 35px;
+    padding: 10px;
+    gap: 10px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: start;
+    input {
+        width: 15px;
+        background: hsl(4, 69%, 50%);
+    }
+}
+
+.Repayment.repay {
+    border: solid 0.1px hsl(61, 70%, 52%);
+    background: hsla(61, 70%, 52%, 0.14)
+}
+
+.rad {
+    accent-color: hsl(61, 70%, 52%);
+}
+
+
+span {
+    font-size: small;
+}
+
+a {
+    font-size: small;
+    color: hsl(200, 24%, 40%);
+}
+
+.Mortgage-amount {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.Mort-type {
+    color: hsl(200, 24%, 40%);
+}
+
+button {
+    background: hsl(61, 70%, 52%);
+    height: 40px;
+    width: 200px;
+    border: none;
+    border-radius: 20px;
+
+}
+
+
+.con2 {
+    height: 100%;
+    width: 50%;
+    background: hsl(201, 56%, 16%);
+    border-radius: 0 0 0 50px;
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.your {
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+.your h2 {
+    color: hsl(0, 0%, 100%);
+}
+
+.your p {
+    color: hsl(203, 41%, 72%);
+}
+.month {
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background: hsl(201, 48%, 13%);
+    border-radius: 5px;
+    padding: 20px;
+    width: 100%;
+    box-shadow: 0px -4px 0px 0 hsl(61, 70%, 52%);
+    margin-bottom: 50px;
+
+}
+
+.month2 {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+}
+
+.month2 p {
+    color: hsl(203, 41%, 72%);
+}
+
+p {
+    color: hsl(202, 86%, 94%);
+    font-size: small;
+}
+
+h3 {
+    color: hsl(0, 0%, 100%);
+}
+
+hr {
+    border: none;
+    height: 0.1px;
+    background: hsl(200, 26%, 54%);
+}
+
+h1 {
+    color: hsl(61, 70%, 52%);
+}
