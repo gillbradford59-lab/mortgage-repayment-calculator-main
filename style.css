@@ -250,20 +250,23 @@ h1 {
 
 @media (max-width:56rem){
     .body {
-        background: red;
+        display:flex;
+        height:100vh;
     }
     .container {
         display: flex;
         flex-direction: column;
         height: fit-content;
         width: 100%;
-        /* padding: 20px; */
+        padding: 20px;
     }
     .con1{
         height: 50%;
+        width: 100%;
     }
     .con2{
         height: 50%;
-        border-radius: none;
+        width: 100%;
+        border-radius: 0px;
     }
 }
